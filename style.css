@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Larsseit';
+}
+#first_frame{
+    width: 100vw;
+    height: 100vh;
+}
+#background_rec3{
+    position: absolute;
+    flex-shrink: 0;
+    background-color: #F4F9E2;
+    width: 77.5vw;
+    height: 100vh;
+
+}
+#background_img{
+    position: relative;
+    top: 15vh;
+    right: -5vw;
+    width: 48vw;
+    height: 60vh;
+    transform: rotate(150deg);
+    flex-shrink: 0;
+    border-radius: 40vw;
+    background: rgba(255, 226, 222, 1);
+    z-index: 3;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#image_1{
+    width: 50%;
+    object-fit: cover;
+    transform: rotate(-150deg) scale(1.9);
+}
+
+#right_background{
+    display: flex;
+    justify-content: flex-end;
+}
+#background_rec3_1{
+    top: -5vh;
+    right: -5vw;
+    position: absolute;
+    width: 48vw;
+    height: 60vh;
+    background-color: #EDFDFF;
+    z-index: 1;
+    transform: rotate(120deg);
+    flex-shrink: 0;
+    border-radius: 40vw;
+}
+
+#header_logo, #main_content_logo{
+    font-family: 'Larsseit';
+    font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+    letter-spacing: -0.84px;
+    color: #62D0DF;
+}
+#header_logo{
+    position: absolute;
+    left: 12.43vw;
+    top: 3.2vh;
+}
+#content{
+    margin: 0;
+    padding: 0;
+}
+#main_content{
+    position: absolute;
+    left: 12.43vw;
+    top: 28.7vh;
+}
+#main_content_logo_div{
+    width: 33.61vw;
+    height: 7.62vh;
+}
+#main_content_h1{
+    width: 33.61vw;
+    height: 19.88vh;
+}
+#main_content_text_div{
+    padding: 0;
+    width: 32.57vw;
+    height: 19.17vh;
+    margin-top: 2.26vh;
+}
+#navbar{
+    position: absolute;
+    top: 4.5vh;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    padding-left: 1vw;
+    font-size: 14px;
+    font-weight: 500;
+    color: #22356F;
+    text-decoration: none;
+}
+#contact_us{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #FFF
+}
+#contact_us_button{
+    position: absolute;
+    z-index: 10;
+    right: 9.7vw;
+    top: 3.2vh;
+    padding: 20px 30px;
+    background-color: #62D0DF;
+    display: inline-block;
+    border-radius: 5vw;
+}
+h1{
+    color: #22356F;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -1.68px;
+}
+#main_content_text{
+    color: #22356F;
+    font-size: 24px;
+    font-weight: 400;
+}
+#who_am_i{
+    margin-top: 7.5vh;
+    padding: 10px 30px;
+    background-color: #F9B640;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.11vw;
+    text-decoration: none;
+}
+#what_do_i_do{
+    margin-left: 2.64vw;
+    margin-top: 7.86vh;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.11vw;
+    text-decoration: none;
+    color: #FAB63E;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+#second_frame{
+    width: 100vw;
+    height: 72.26vh;;
+}
+
+
+#background_second{
+    width: 100vw;
+    height: 72.26vh;
+    background-color: #62D0DF;
+}
+#why_thrive{
+    position: relative;
+    left: 12.43vw;
+    top: 17.98vh;
+    width: 38.54vw;
+    display: inline-block;
+}
+#second_frame_img{
+    float: right;
+    display: flex;
+    justify-content: end;
+}
+#img_2{
+    position: relative;
+    right: 0;
+    width: 35.46vw;
+    height: 72.26vh;
+}
+#why_thrive h2{
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.216px;
+    color: #FFFFFF
+}
+#why_thrive p{
+    display: inline;
+}
+#second_upper_text{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+}
+#second_lower_text{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+#second_text{
+    width: 555px;
+    height: 235px;
+    margin-top: 8.93vh;
+}
+
+
+
+
+#third_frame{
+    width: 100vw;
+    height: 42.98vh;
+}
+#third_frame_text{
+    display: flex;
+    justify-content: space-between;
+    width: 63.19vw;
+    height: 25vh;
+    position: relative;
+    top: 18.57vh;
+    left: 7.36vw;
+}
+#about_us_div{
+    display: inline-block;
+}
+#about_us_div p{
+    color: #22356F;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+#about_us_text{
+    display: inline-block;
+    position: relative;
+    width: 41.11vw;
+    height: 25vh;
+}
+#about_us_text p{
+    color: #22356F;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
